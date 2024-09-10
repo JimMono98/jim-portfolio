@@ -48,10 +48,10 @@ const Home = () => {
               Hello, I'm <br />
               <span className="text-accent">Jim Mono.</span> <br />
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies.
-            </p>
-            {/* buttons and socials */}
+              <p className="max-w-[500px] mb-9 text-white/80">
+                I am a passionate Software Engineer with a strong foundation in full-stack development, database systems, and UI/UX design. My diverse experience includes developing web and mobile applications, 3D graphics, and innovative IoT projects. 
+              </p>
+              {/* buttons and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
                 variant="outline"
