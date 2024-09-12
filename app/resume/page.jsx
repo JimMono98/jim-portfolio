@@ -83,7 +83,7 @@ const education = {
         {
             institution: "DI.PA.E",
             degree: "Software Engineer",
-            duration: "2018 - 2024",
+            duration: "2018 - Present",
         },
         {
             institution: "General High School",
@@ -132,8 +132,8 @@ const skills = {
             name: "C++",
         },
         {
-            icon: <SiCsharp />,
-            name: "C#",
+            icon: <SiR />,
+            name: "R",
         },
         {
             icon: <SiPostgresql />,
@@ -186,10 +186,6 @@ const skills = {
         {
             icon: <SiApachenetbeanside />,
             name: "Netbeans IDE",
-        },
-        {
-            icon: <SiR />,
-            name: "R",
         },
         {
             icon: <FaPhp />,
