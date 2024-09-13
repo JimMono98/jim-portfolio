@@ -32,7 +32,7 @@ const projects = [
         category: "Mobile Application Development",
         title: "Project 2",
         description: "Developed a mobile application using Kotlin, integrating the Gemini API to deliver answers to any user query. The app provides real-time responses, ensuring a seamless user experience. Focused on intuitive design, API integration, and optimizing performance, the project demonstrates expertise in mobile development and API utilization.",
-        stack: [{ name: "Kotlin.js" }, { name: "Gemini API" }],
+        stack: [{ name: "Kotlin" }, { name: "Gemini API" }],
         image: "/assets/work/thumb2.png",
         live: "https://ihuedu-my.sharepoint.com/:i:/g/personal/it185400_ihu365_gr/ET6R8MUB001Ls-rEMpGR5BYB6518jCNd_dpWWxlU5e5Syw?e=w6yevg",
         github: "",

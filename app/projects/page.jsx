@@ -6,9 +6,9 @@ import Link from "next/link";
 const projects = [
     {
         num: "01",
-        title: "Software Engineering",
-        description: "Smart Robot for Educational and Professional Environments",
-        href: "https://ihuedu-my.sharepoint.com/:b:/g/personal/it185400_ihu365_gr/EWra4Gqf1tlAnfhXw16mRD4BvrdfZh8A-Ct1zNbw-UffqQ?e=EIQJkM"
+        title: "Web Developer",
+        description: "Personal Website",
+        href: "/"
     },
     {
         num: "02",
@@ -89,10 +89,11 @@ const projects = [
         href: "https://www.figma.com/design/juDBwXAcxce5gmwJVJbxcW/Figma-basics?node-id=1669-162202&m=dev&t=wpKGINVjCUV8TOvL-1"
     },
     {
+        
         num: "15",
-        title: "Web Developer",
-        description: "Personal Website",
-        href: "/"
+        title: "Software Engineering",
+        description: "Smart Robot for Educational and Professional Environments",
+        href: "https://ihuedu-my.sharepoint.com/:b:/g/personal/it185400_ihu365_gr/EWra4Gqf1tlAnfhXw16mRD4BvrdfZh8A-Ct1zNbw-UffqQ?e=EIQJkM"
     },
 ];
 
