@@ -88,12 +88,12 @@ const education = {
         {
             institution: "General High School",
             degree: "High School Diploma",
-            duration: "2014 - 2016",
+            duration: "2013 - 2016",
         },
         {
             institution: "English Certificate",
             degree: "Communicator Level (B2)",
-            duration: "2013",
+            duration: "2012",
         },  
     ]
 };
