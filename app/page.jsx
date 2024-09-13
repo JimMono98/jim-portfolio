@@ -54,8 +54,8 @@ const Home = () => {
               {/* buttons and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
                 <a 
-                  href="/assets/face1.png"
-                  download="face1.png"
+                  href="/assets/ecv_Monogenidis_Dimitrios.pdf"
+                  download="ecv_Monogenidis_Dimitrios.pdf"
                 >
                   <Button
                     variant="outline"
