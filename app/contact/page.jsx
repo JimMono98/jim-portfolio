@@ -106,7 +106,7 @@ const Contact = () => {
         {
             icon: <SiCheckmarx />,
             title: "Available",
-            description: "Daily from 11 AM to 8 PM.",
+            description: "Daily from 10 AM to 8 PM",
         },
         {
             icon: <FaPhoneAlt />,
@@ -141,7 +141,6 @@ const Contact = () => {
                         <form onSubmit={handleSubmit} className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
                             <h3 className="text-4xl text-accent">Let's work together</h3>
                             <p className="text-white/60">
-                                I am a passionate Software Engineer with a strong foundation in full-stack development...
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <Input
