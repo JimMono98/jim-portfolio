@@ -2,7 +2,7 @@
 
 import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaJava, FaPhp, FaPython } from "react-icons/fa"
 
-import { SiTailwindcss, SiC, SiCplusplus, SiCsharp, SiBlender, SiApachenetbeanside, SiPostgresql, SiMysql, SiJquery, SiKotlin, SiMariadb, SiLinux, SiParrotsecurity, SiKalilinux, SiWireshark, SiCisco, SiVirtualbox, SiFilezilla, SiDocker, SiHackthebox, SiTryhackme, SiBurpsuite, SiFirebase, SiR, SiAndroidstudio} from "react-icons/si"
+import { SiTailwindcss, SiC, SiCplusplus, SiBlender, SiApachenetbeanside, SiPostgresql, SiMysql, SiJquery, SiKotlin, SiMariadb, SiLinux, SiParrotsecurity, SiKalilinux, SiWireshark, SiCisco, SiVirtualbox, SiFilezilla, SiDocker, SiHackthebox, SiTryhackme, SiBurpsuite, SiFirebase, SiR, SiAndroidstudio} from "react-icons/si"
 
 // about data
 const about = {
@@ -15,7 +15,7 @@ const about = {
         },
         {
             fieldName: "Phone",
-            fieldValue: "(+30 6986610660)"
+            fieldValue: "(+30) 698 6610 660"
         },
         {
             fieldName: "Experience",

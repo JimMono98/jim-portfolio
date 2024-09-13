@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { motion } from "framer-motion";
+import {SiCheckmarx, SiCheckio } from "react-icons/si";
 
 import {
     Select,
@@ -18,6 +19,11 @@ import {
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa"
 
 const info = [
+    {
+        icon: <SiCheckmarx />,
+        title: "Available",
+        description: "Daily from 11 AM to 8 PM.",
+    },
     {
         icon: <FaPhoneAlt />,
         title: "Phone",
