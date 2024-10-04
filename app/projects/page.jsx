@@ -6,7 +6,7 @@ import Link from "next/link";
 const projects = [
     {
         num: "01",
-        title: "Web Developer",
+        title: "Web Development",
         description: "Personal Website",
         href: "/"
     },
