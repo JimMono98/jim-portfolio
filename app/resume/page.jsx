@@ -101,7 +101,7 @@ const education = {
 // skills data
 const skills = {
     title: "My skills",
-    description: "I have developed some skillsets through my university education and self-learning in software engineering. These skills range from front-end development, including web design and user interface creation, to backend systems and database management. My knowledge in cybersecurity and 3D modeling further expands my technical capabilities. The icons reflect my proficiency, starting with my strongest skills",       
+    description: "I have developed some skillsets through my university education and self-learning in software engineering. These skills range from front-end development, including web design and user interface creation, to backend systems and database management. My knowledge in cybersecurity and 3D modeling further expands my technical capabilities. The icons reflect my proficiency, starting with my strongest skills.",       
     skillList: [
         {
             icon: <FaJava />,
