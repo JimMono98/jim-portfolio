@@ -116,12 +116,12 @@ const Contact = () => {
         {
             icon: <FaEnvelope />,
             title: "Email",
-            description: "Jimkaiolakala@gmail.com",
+            description: "dmonogenidis@gmail.com",
         },
         {
             icon: <FaMapMarkerAlt />,
             title: "Address",
-            description: "Evosmos, Thessaloniki 56431",
+            description: "Thessaloniki, Greece",
         },
     ];
 
