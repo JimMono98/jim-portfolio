@@ -1,8 +1,16 @@
-"use client";
-
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaJava, FaPhp, FaPython } from "react-icons/fa"
-
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { SiTailwindcss, SiC, SiCplusplus, SiBlender, SiApachenetbeanside, SiPostgresql, SiMysql, SiJquery, SiKotlin, SiMariadb, SiLinux, SiParrotsecurity, SiKalilinux, SiWireshark, SiCisco, SiVirtualbox, SiFilezilla, SiDocker, SiHackthebox, SiTryhackme, SiBurpsuite, SiFirebase, SiR, SiAndroidstudio} from "react-icons/si"
+
+import { motion } from "framer-motion";
+
+const calculateYearsExperience = () => {
+    const startYear = 2018;
+    const currentYear = new Date().getFullYear();
+    return currentYear - startYear;
+};
 
 // about data
 const about = {
@@ -237,18 +245,6 @@ const skills = {
             name: "Blender",
         },
     ],
-};
-
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-
-import { motion } from "framer-motion";
-
-const calculateYearsExperience = () => {
-    const startYear = 2018;
-    const currentYear = new Date().getFullYear();
-    return currentYear - startYear;
 };
 
 const Resume = () => {
