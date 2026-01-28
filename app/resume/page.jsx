@@ -19,7 +19,7 @@ const about = {
         },
         {
             fieldName: "Experience",
-            fieldValue: `${calculateYearsExperience()}+ Years`
+            fieldValue: "8+ Years"
         },
         {
             fieldName: "LinkedIn",
@@ -31,11 +31,11 @@ const about = {
         },
         {
             fieldName: "Email",
-            fieldValue: "dmonogenidis@gmail.com"
+            fieldValue: "jimkaiolakala@gmail.com"
         },
         {
-            fieldName: "Working Status",
-            fieldValue: "Delloite - Full Stack Software Engineer"
+            fieldName: "Freelance",
+            fieldValue: "Available"
         },
         {
             fieldName: "Languages",
@@ -50,11 +50,6 @@ const experience = {
     title: "My experience",
     description: "I have a diverse background, combining hands-on experience in hospitality with a strong foundation in web development and software engineering. While working as a Human Resources Manager and Web Developer at Hotel Paradise Kriopigi, I enhanced both technical systems and team management. My time in hospitality roles at NAMMOS Mykonos and Villas Seaside Lounge has strengthened my adaptability and multitasking abilities.",
         items: [
-        {
-            company: "Delloite",
-            position: "Full Stack Software Engineer",
-            duration: "2024 - Present",
-        },
         {
             company: "Hotel Paradise Kriopigi",
             position: "Human Resources Manager",
@@ -239,17 +234,12 @@ const skills = {
     ],
 };
 
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 
+import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
-
-const calculateYearsExperience = () => {
-    const startYear = 2018;
-    const currentYear = new Date().getFullYear();
-    return currentYear - startYear;
-};
 
 const Resume = () => {
     return (
