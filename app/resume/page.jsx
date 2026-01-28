@@ -1,8 +1,16 @@
-"use client";
-
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaJava, FaPhp, FaPython } from "react-icons/fa"
-
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { SiTailwindcss, SiC, SiCplusplus, SiBlender, SiApachenetbeanside, SiPostgresql, SiMysql, SiJquery, SiKotlin, SiMariadb, SiLinux, SiParrotsecurity, SiKalilinux, SiWireshark, SiCisco, SiVirtualbox, SiFilezilla, SiDocker, SiHackthebox, SiTryhackme, SiBurpsuite, SiFirebase, SiR, SiAndroidstudio} from "react-icons/si"
+
+import { motion } from "framer-motion";
+
+const calculateYearsExperience = () => {
+    const startYear = 2018;
+    const currentYear = new Date().getFullYear();
+    return currentYear - startYear;
+};
 
 // about data
 const about = {
@@ -19,7 +27,7 @@ const about = {
         },
         {
             fieldName: "Experience",
-            fieldValue: "8+ Years"
+            fieldValue: `${calculateYearsExperience()}+ Years`
         },
         {
             fieldName: "LinkedIn",
@@ -31,11 +39,11 @@ const about = {
         },
         {
             fieldName: "Email",
-            fieldValue: "jimkaiolakala@gmail.com"
+            fieldValue: "dmonogenidis@gmail.com"
         },
         {
-            fieldName: "Freelance",
-            fieldValue: "Available"
+            fieldName: "Working Status",
+            fieldValue: "Delloite - Full Stack Software Engineer"
         },
         {
             fieldName: "Languages",
@@ -50,6 +58,11 @@ const experience = {
     title: "My experience",
     description: "I have a diverse background, combining hands-on experience in hospitality with a strong foundation in web development and software engineering. While working as a Human Resources Manager and Web Developer at Hotel Paradise Kriopigi, I enhanced both technical systems and team management. My time in hospitality roles at NAMMOS Mykonos and Villas Seaside Lounge has strengthened my adaptability and multitasking abilities.",
         items: [
+        {
+            company: "Delloite",
+            position: "Full Stack Software Engineer",
+            duration: "2024 - Present",
+        },
         {
             company: "Hotel Paradise Kriopigi",
             position: "Human Resources Manager",
@@ -233,13 +246,6 @@ const skills = {
         },
     ],
 };
-
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { motion } from "framer-motion";
 
 const Resume = () => {
     return (
