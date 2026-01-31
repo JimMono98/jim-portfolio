@@ -24,12 +24,21 @@ const Home = () => {
 
   useEffect(() => {
     // Initialize Typed.js
-    const typed = new Typed('.multiple-text', {
-      strings: ["Software Engineer.", "Full-Stack Developer.", "Database Developer.", "Database Developer.", "Mobile Application Developer.", "UI/UX Developer.", "Graphics Programmer.", "Web Developer."],
+    const typed = new Typed(".multiple-text", {
+      strings: [
+        "Software Engineer.",
+        "Full-Stack Developer.",
+        "Database Developer.",
+        "Database Developer.",
+        "Mobile Application Developer.",
+        "UI/UX Developer.",
+        "Graphics Programmer.",
+        "Web Developer.",
+      ],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
-      loop: true
+      loop: true,
     });
 
     // Clean up the Typed instance on component unmount
@@ -48,24 +57,27 @@ const Home = () => {
               Hello, I'm <br />
               <span className="text-accent">Jim Mono.</span> <br />
             </h1>
-              <p className="max-w-[500px] mb-9 text-white/80">
-                I am a passionate Software Engineer with a strong foundation in full-stack development, database systems, and UI/UX design. My diverse experience includes developing web and mobile applications, 3D graphics, and innovative IoT projects. 
-              </p>
-              {/* buttons and socials */}
+            <p className="max-w-[500px] mb-9 text-white/80">
+              I am a passionate Software Engineer with a strong foundation in
+              full-stack development, database systems, and UI/UX design. My
+              diverse experience includes developing web and mobile
+              applications, 3D graphics, and innovative IoT projects.
+            </p>
+            {/* buttons and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-                <a 
-                  href="/assets/ecv_Monogenidis_Dimitrios.pdf"
-                  download="ecv_Monogenidis_Dimitrios.pdf"
+              <a
+                href="/assets/ecv_Monogenidis_Dimitrios.pdf"
+                download="ecv_Monogenidis_Dimitrios.pdf"
+              >
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
                 >
-                  <Button
-                    variant="outline"
-                    size="lg"
-                    className="uppercase flex items-center gap-2"
-                  >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
-            </a>
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </a>
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"
