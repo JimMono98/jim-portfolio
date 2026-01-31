@@ -5,46 +5,48 @@
 @layer base {
   body {
     @apply font-primary bg-primary text-white leading-loose;
+  }
+  .h1 {
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+  }
+  .h2 {
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+  }
+  .h3 {
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+  }
+  .text-outline {
+    -webkit-text-stroke: 1px #ffffff;
+  }
+
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #00ff99;
+  }
+  @keyframes blink-green-white {
+    0%,
+    100% {
+      background-color: #00ff99; /* Light green */
     }
-    .h1 {
-      @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+    50% {
+      background-color: #ffffff; /* White */
     }
-    .h2 {
-      @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+  }
+
+  @keyframes blink-red {
+    0%,
+    100% {
+      background-color: #ff7070; /* Light red */
     }
-    .h3 {
-      @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+    50% {
+      background-color: #ffffff; /* White */
     }
-    .text-outline {
-      -webkit-text-stroke: 1px #ffffff;
-    }
-    
-    .text-outline-hover{
-      -webkit-text-stroke: 1px #00ff99;
-    }
-    @keyframes blink-green-white {
-      0%, 100% {
-        background-color: #00ff99; /* Light green */
-      }
-      50% {
-        background-color: #ffffff; /* White */
-      }
-    }
-    
-    @keyframes blink-red {
-      0%, 100% {
-        background-color: #ff7070; /* Light red */
-      }
-      50% {
-        background-color: #ffffff; /* White */
-      }
-    }
-    
-    .blink-green-white {
-      animation: blink-green-white 3.75s infinite;
-    }
-    
-    .blink-red {
-      animation: blink-red 3.75s infinite;
-    }
+  }
+
+  .blink-green-white {
+    animation: blink-green-white 3.75s infinite;
+  }
+
+  .blink-red {
+    animation: blink-red 3.75s infinite;
+  }
 }
