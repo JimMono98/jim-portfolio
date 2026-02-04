@@ -38,5 +38,5 @@ next-env.d.ts
 # Ignore all dotfiles and directories
 .*
 
-# But don't ignore .gitignore
+# .gitignore
 !.gitignore
