@@ -54,7 +54,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "8+ Years",
+      fieldValue: `${new Date().getFullYear() - 2020}+ Years`,
     },
     {
       fieldName: "LinkedIn",

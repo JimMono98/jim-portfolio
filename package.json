@@ -1,7 +1,7 @@
 {
   "name": "jim-portfolio",
   "homepage": "https://JimMono_Portfolio_Website.com/",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
