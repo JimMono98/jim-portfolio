@@ -66,11 +66,11 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "jimkaiolakala@gmail.com",
+      fieldValue: "dmonogenidis@gmail.com",
     },
     {
-      fieldName: "Freelance",
-      fieldValue: "Available",
+      fieldName: "Working",
+      fieldValue: "Deloitte DACC",
     },
     {
       fieldName: "Languages",
