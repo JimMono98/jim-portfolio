@@ -4,7 +4,14 @@
  * @see https://nextjs.org/docs/app/api-reference/next-config-js
  */
 const nextConfig = {
-  // Add configuration options here as needed
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cdn.sanity.io",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
