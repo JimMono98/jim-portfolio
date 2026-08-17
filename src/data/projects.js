@@ -25,7 +25,7 @@ const projects = Object.freeze([
     name: "Custom Python API Number Checker",
     originalUrl:
       "https://ihuedu-my.sharepoint.com/:i:/g/personal/it185400_ihu365_gr/EaiGUVKBLEJIu0_-fjmNsQgBa_y_4PHjalZIrKm6eDNvvQ?e=qpiaCu",
-    caseStudySlug: null,
+    caseStudySlug: "custom-python-api-number-checker",
     order: 3,
   }),
   Object.freeze({
