@@ -5,7 +5,7 @@ const projects = Object.freeze([
     category: "Web Development",
     name: "JimMono Personal Portfolio",
     originalUrl: "/",
-    caseStudySlug: null,
+    caseStudySlug: "jimmono-portfolio",
     order: 1,
   }),
   Object.freeze({
