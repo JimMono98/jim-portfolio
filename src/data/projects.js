@@ -15,7 +15,7 @@ const projects = Object.freeze([
     name: "Movie Review Mobile App",
     originalUrl:
       "https://ihuedu-my.sharepoint.com/:p:/g/personal/it185400_ihu365_gr/EfS_8bkLmplKj0hL2arFmqkBmbdJyeywYjTtE8ONxCqbNQ?e=wsUbQj",
-    caseStudySlug: null,
+    caseStudySlug: "movie-review-mobile-app",
     order: 2,
   }),
   Object.freeze({
