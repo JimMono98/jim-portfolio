@@ -26,7 +26,7 @@ export function getCaseStudyNeighbors(currentSlug) {
   }
 
   const toNavigationProject = (project) => ({
-    title: project.name,
+    title: project.navigationTitle || project.name,
     href: getCaseStudyPath(project),
   });
   const previousEntry = orderedCaseStudies[currentIndex - 1];
