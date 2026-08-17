@@ -7,7 +7,9 @@ export default function SiteLayout({ children }) {
     <>
       <Header />
       <StairTransition />
-      <PageTransition>{children}</PageTransition>
+      <PageTransition>
+        <div className="pb-14">{children}</div>
+      </PageTransition>
     </>
   );
 }
