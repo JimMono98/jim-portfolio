@@ -1,3 +1,3 @@
-import project from "./project";
+import contactPage from "./contactPage";
 
-export const schemaTypes = [project];
+export const schemaTypes = [contactPage];

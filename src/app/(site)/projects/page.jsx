@@ -1,9 +1,6 @@
-import { getProjects } from "@/sanity/lib/queries";
+import projects from "@/data/projects";
 import ProjectsGrid from "@/components/ProjectsGrid";
 
-export const dynamic = "force-dynamic";
-
-export default async function Projects() {
-  const projects = await getProjects();
+export default function Projects() {
   return <ProjectsGrid projects={projects} />;
 }
