@@ -73,9 +73,10 @@ const projects = Object.freeze([
     number: "08",
     category: "Artificial Intelligence",
     name: "Decision Tree and SVM Classification/Regression Models: Comparison and Hyperparameter Exploration",
+    navigationTitle: "Decision Tree & SVM Models",
     originalUrl:
       "https://ihuedu-my.sharepoint.com/:f:/g/personal/it185400_ihu365_gr/ElZdZPGmrOdEtCW02ExZT3MBbIYGTWmhiUQsWud8mpDIKg?e=DvJAer",
-    caseStudySlug: null,
+    caseStudySlug: "decision-tree-svm-models",
     order: 8,
   }),
   Object.freeze({
