@@ -93,10 +93,11 @@ const projects = Object.freeze([
     id: "hack-the-box-ssti-challenge",
     number: "10",
     category: "Web Security",
-    name: "Penetration Testing-SSTI: Medium Difficulty Challenge on HackTheBox (No-Threshold)",
+    name: "No-Threshold Web Security Challenge",
+    navigationTitle: "No-Threshold Web Security",
     originalUrl:
       "https://ihuedu-my.sharepoint.com/:p:/g/personal/it185400_ihu365_gr/EZPv6bLIMVpKqGZjg7Jt17EB7IODLspAWo_hoJS8GrVPFA?e=PyY1Gi",
-    caseStudySlug: null,
+    caseStudySlug: "hack-the-box-no-threshold",
     order: 10,
   }),
   Object.freeze({
