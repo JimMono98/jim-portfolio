@@ -105,9 +105,10 @@ const projects = Object.freeze([
     number: "11",
     category: "Haptic Interfaces",
     name: "An Examination of the Vibration API: Integrating Tactile Feedback into Modern Mobile Web Applications",
+    navigationTitle: "Vibration API & Haptic Feedback",
     originalUrl:
       "https://ihuedu-my.sharepoint.com/:p:/g/personal/it185400_ihu365_gr/EaSEa3Tf1pVKqTN3Y1tqlaMBWH_wKmwdgcqfuYPG8Te0gg?e=HpVtK5",
-    caseStudySlug: null,
+    caseStudySlug: "vibration-api-examination",
     order: 11,
   }),
   Object.freeze({
