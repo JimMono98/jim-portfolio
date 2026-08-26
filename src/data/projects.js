@@ -116,9 +116,10 @@ const projects = Object.freeze([
     number: "12",
     category: "Internet of Things",
     name: "The Role of 5G Technology in Mitigating the Effects of COVID-19",
+    navigationTitle: "5G Pandemic Response",
     originalUrl:
       "https://ihuedu-my.sharepoint.com/:w:/g/personal/it185400_ihu365_gr/EWXmtvrXHeNJgajw5vloW-sBNT8KJ9b16lE3z8UgHZ2AMQ?e=I1XPGc",
-    caseStudySlug: null,
+    caseStudySlug: "5g-covid-19",
     order: 12,
   }),
   Object.freeze({
