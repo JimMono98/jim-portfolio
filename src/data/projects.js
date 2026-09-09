@@ -127,9 +127,10 @@ const projects = Object.freeze([
     number: "13",
     category: "Internet of Things",
     name: "The Implementation of 5G Technology in Enhancing Public Safety",
+    navigationTitle: "5G for Public Safety",
     originalUrl:
       "https://ihuedu-my.sharepoint.com/:w:/g/personal/it185400_ihu365_gr/EWhKw3qPUFNFlk21apOCFFMBZP2F3jWpIRBJX3jWaAYecQ?e=xdYfpn",
-    caseStudySlug: null,
+    caseStudySlug: "5g-public-safety",
     order: 13,
   }),
   Object.freeze({

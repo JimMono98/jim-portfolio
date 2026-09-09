@@ -35,7 +35,7 @@ function ProjectNavigationCard({ project, direction, className = "" }) {
             {eyebrow}
           </p>
           <p className="mt-5 text-xl font-semibold text-white transition-colors group-hover:text-accent sm:text-2xl">
-            {project.title}
+            {project.number} · {project.title}
           </p>
         </div>
 
