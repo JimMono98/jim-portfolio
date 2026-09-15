@@ -55,7 +55,8 @@ const projects = Object.freeze([
     name: "Design and Implementation of a Restaurant Information System Using Java Swing and NetBeans IDE",
     originalUrl:
       "https://ihuedu-my.sharepoint.com/:b:/g/personal/it185400_ihu365_gr/ERGVPwNJLQpAt2bbJ4wzC7MB2WrlryYPFJBSHldFXm1t7Q?e=1yXq78",
-    caseStudySlug: null,
+    caseStudySlug: "restaurant-information-system",
+    navigationTitle: "Restaurant Information System",
     order: 6,
   }),
   Object.freeze({
